@@ -1,0 +1,59 @@
+.jhu_color_picker_container {
+  
+  overflow: visible;
+
+  .input-container {
+
+    // remove background color from input so
+    // the selected color will show through
+    .jhu_color_picker {
+      z-index: 2;
+      position: relative;
+      background-color: transparent;
+    }
+    
+    // display the selected color underneath
+    // the input to preserve input events
+    .color-display {
+      margin-top: 1px;
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      padding: 3px;
+    }
+
+  }
+
+  .swatch {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px
+  }
+
+  .color {
+    clear: left;
+    line-height: 20px;
+
+    &:hover {
+      cursor: pointer;
+      background: #e1e1e1;
+    }
+
+  }
+
+  .colors {
+    position: absolute;
+    z-index: 1;
+    height: 200px;
+    overflow: scroll;
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    display: none;
+
+    .color {
+      padding: 5px 10px;
+    }
+  }
+
+}

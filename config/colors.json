@@ -1,0 +1,215 @@
+[
+    {
+        "name": "Newer HUT Glass",
+        "families": ["reds", "communications"],
+        "pms": "179 C",
+        "rgb": [224, 60, 49],
+        "hex": "F43C31"
+    },
+    {
+        "name": "Red Clay",
+        "families": ["reds", "newly-added"],
+        "pms": "7623 C",
+        "rgb": [138, 42, 43],
+        "hex": "8A2A2B"
+    },
+    {
+        "name": "Burnt Orange",
+        "families": ["oranges", "newly-added"],
+        "pms": "173 C",
+        "rgb": [207, 69, 32],
+        "hex": "CF4520"
+    },
+    {
+        "name": "Tangerine",
+        "families": ["oranges", "eric-added", "newly-added"],
+        "pms": "1505 C",
+        "rgb": [255, 105, 0],
+        "hex": "FF6900"
+    },
+    {
+        "name": "Creamsicle",
+        "families": ["oranges", "newly-added"],
+        "pms": "1375 C",
+        "rgb": [255, 158, 27],
+        "hex": "FF9E1B"
+    },
+    {
+        "name": "Sunlight",
+        "families": ["yellows", "for-review", "newly-added"],
+        "pms": "1215 C",
+        "rgb": [251, 216, 114],
+        "hex": "FBD872"
+    },
+    {
+        "name": "New Academic Gold",
+        "families": ["yellows", "for-review", "newly-added"],
+        "pms": "116 C",
+        "rgb": [255, 205, 0],
+        "hex": "FFCD00"
+    },
+    {
+        "name": "Lemon",
+        "families": ["yellows", "newly-added", "for-review"],
+        "pms": "101 C",
+        "rgb": [247, 234, 72],
+        "hex": "F7EA48"
+    },
+    {
+        "name": "CTY Green",
+        "families": ["greens", "cty", "newly-added"],
+        "pms": "584 C",
+        "rgb": [210, 215, 85],
+        "hex": "D2D755"
+    },
+    {
+        "name": "Java",
+        "families": ["greens", "bloomberg"],
+        "pms": "574 C",
+        "rgb": [78, 91, 49],
+        "bloomberg-rgb": [83, 87, 29],
+        "hex": "4E5B31"
+    },
+    {
+        "name": "Oak Leaves",
+        "families": ["greens", "campus"],
+        "pms": "7489 C",
+        "rgb": [116, 170, 80],
+        "hex": "74AA50"
+    },
+    {
+        "name": "Magnolia Leaves (DEP)",
+        "families": ["greens", "campus"],
+        "pms": "7743 C",
+        "rgb": [68, 105, 61],
+        "hex": "44693D"
+    },
+    {
+        "name": "Spearmint",
+        "families": ["greens", "newly-added"],
+        "pms": "341 C",
+        "rgb": [0, 122, 83],
+        "hex": "007A53"
+    },
+    {
+        "name": "Bright Turquoise",
+        "families": ["teals", "eric-added", "newly-added"],
+        "pms": "3268 C",
+        "rgb": [0, 171, 142],
+        "hex": "00AB8E"
+    },
+    {
+        "name": "New Copper Petina",
+        "families": ["teals", "campus"],
+        "pms": "564 C",
+        "rgb": [134, 200, 188],
+        "hex": "86C8BC"
+    },
+    {
+        "name": "Basin",
+        "families": ["blues", "bloomberg"],
+        "pms": "548 C",
+        "rgb": [0, 61, 76],
+        "bloomberg-rgb": [0, 51, 86],
+        "hex": "003D4C"
+    },
+    {
+        "name": "Stained Glass",
+        "families": ["blues", "campus"],
+        "pms": "7696 C",
+        "rgb": [99, 153, 174],
+        "hex": "6399AE"
+    },
+    {
+        "name": "Brody Chair",
+        "families": ["blues", "campus"],
+        "pms": "300 C",
+        "rgb": [0, 94, 184],
+        "hex": "005EB8"
+    },
+    {
+        "name": "Baby Boy",
+        "families": ["blues", "newly-added"],
+        "pms": "292 C",
+        "rgb": [105, 179, 231],
+        "hex": "69B3E7"
+    },
+    {
+        "name": "Brody Wall/Jay Blue",
+        "families": ["blues", "campus"],
+        "pms": "279 C",
+        "rgb": [65, 143, 222],
+        "hex": "418FDE"
+    },
+    {
+        "name": "Slate",
+        "families": ["blues", "communications"],
+        "pms": "651 C",
+        "rgb": [167, 188, 214],
+        "hex": "A7BCD6"
+    },
+    {
+        "name": "Light Purple",
+        "families": ["indigos", "purples", "communications"],
+        "pms": "7675 C",
+        "rgb": [124, 127, 171],
+        "hex": "7C7FAB"
+    },
+    {
+        "name": "Ballpoint",
+        "families": ["indigos", "purples", "newly-added"],
+        "pms": "273 C",
+        "rgb": [36, 19, 95],
+        "hex": "24135F"
+    },
+    {
+        "name": "New Beet",
+        "families": ["violets", "purples", "newly-added"],
+        "pms": "2617 C",
+        "rgb": [71, 10, 104],
+        "hex": "470A68"
+    },
+    {
+        "name": "Pathway Brick",
+        "families": ["violets", "purples", "campus"],
+        "pms": "5205 C",
+        "rgb": [134, 100, 122],
+        "hex": "86647A"
+    },
+    {
+        "name": "New Medical Gloves",
+        "families": ["violets", "purples", "campus", "newly-added"],
+        "pms": "7656 C",
+        "rgb": [142, 58, 128],
+        "hex": "8E3A80"
+    },
+    {
+        "name": "Ron/Tricia Pants",
+        "families": ["pinks", "newly-added"],
+        "pms": "505 C",
+        "rgb": [111, 44, 63],
+        "hex": "6F2C3F"
+    },
+    {
+        "name": "Bubblegum",
+        "families": ["pinks", "newly-added"],
+        "pms": "1915 C",
+        "rgb": [239, 74, 129],
+        "hex": "EF4A81"
+    },
+    {
+        "name": "Copper Roof",
+        "families": ["reds", "campus"],
+        "pms": "486 C",
+        "rgb": [232, 146, 124],
+        "hex": "E8927C"
+    },
+    {
+        "name": "Barista",
+        "families": ["browns", "bloomberg"],
+        "pms": "732 C",
+        "rgb": [98, 52, 18],
+        "bloomberg-rgb": [79, 51, 20],
+        "hex": "623412"
+    }
+]
