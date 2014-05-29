@@ -19,11 +19,15 @@ var ColorPicker = function (input, colors) {
 
   // div that contains the colors to choose from
   this.colorSelectBox = parent.find(".colors");
+  
+  // repeaters default subfields to no value, so we need
+  // to set a default value of a stringified empty array.
+  var value = this.dataField.val() || JSON.stringify({});
 
   // holds the HTML of the selected color so that it can be
   // placed back in this.displayField after `blur` event if
   // a new color was not selected
-  this.currentValue = JSON.parse(this.dataField.attr("value"));
+  this.currentValue = JSON.parse(value);
 
   // keep track of whether the input is in focus or not
   this.active = false;
