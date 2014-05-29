@@ -23,7 +23,7 @@
       background: #e1e1e1; }
   .jhu_color_picker_container .colors {
     position: absolute;
-    z-index: 1;
+    z-index: 3;
     height: 200px;
     overflow: scroll;
     background: #fff;
