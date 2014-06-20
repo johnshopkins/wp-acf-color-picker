@@ -54,9 +54,7 @@ ColorPicker.prototype.clearDisplayField = function () {
 
 ColorPicker.prototype.displayCurrentValue = function () {
 
-  if (this.currentValue.hex) {
-    this.displayField.html(this.createColor(this.currentValue));
-  }
+  this.displayField.html(this.createColor(this.currentValue));
 
 };
 
@@ -75,10 +73,12 @@ ColorPicker.prototype.populateColors = function () {
   var self = this;
   var container = $("<div>");
 
+  this.createColor({}).appendTo(container);
+
   _.each(this.colors, function (color) {
     self.createColor(color).appendTo(container);
   });
-
+  
   this.colorSelectBox.html(container);
 
 };
@@ -94,13 +94,17 @@ ColorPicker.prototype.createColor = function (color) {
     .addClass("color")
     .attr("data-info", JSON.stringify(color));
 
+  var swatchColor = color.hex ? "#" + color.hex : "transparet";
+
   $("<div>")
     .addClass("swatch")
-    .css("background-color", "#" + color.hex)
+    .css("background-color", swatchColor)
     .appendTo(div);
+  
+  var colorName = color.name ? color.name : "None";
 
   $("<span>")
-    .html(color.name)
+    .html(colorName)
     .appendTo(div);
 
   return div;
