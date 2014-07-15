@@ -106,6 +106,13 @@
         "hex": "86C8BC"
     },
     {
+        "name": "Logo",
+        "families": ["blues", "communications", "identity"],
+        "pms": "288 C",
+        "rgb": [0, 45, 114],
+        "hex": "002D72"
+    },
+    {
         "name": "Basin",
         "families": ["blues", "bloomberg"],
         "pms": "548 C",
@@ -121,21 +128,21 @@
         "hex": "6399AE"
     },
     {
-        "name": "Brody Chair",
+        "name": "Sparta",
         "families": ["blues", "campus"],
         "pms": "300 C",
         "rgb": [0, 94, 184],
         "hex": "005EB8"
     },
     {
-        "name": "Baby Boy",
+        "name": "Jay",
         "families": ["blues", "newly-added"],
-        "pms": "292 C",
-        "rgb": [105, 179, 231],
-        "hex": "69B3E7"
+        "pms": "284 C",
+        "rgb": [108, 172, 228],
+        "hex": "6CACE4"
     },
     {
-        "name": "Brody Wall/Jay Blue",
+        "name": "Brody Wall",
         "families": ["blues", "campus"],
         "pms": "279 C",
         "rgb": [65, 143, 222],
@@ -211,5 +218,76 @@
         "rgb": [98, 52, 18],
         "bloomberg-rgb": [79, 51, 20],
         "hex": "623412"
+    },
+    {
+        "name": "Nursing Stairwell",
+        "families": ["browns", "tans", "neutrals", "campus"],
+        "pms": "7501 C",
+        "rgb": [217, 200, 158],
+        "hex": "D9C89E"
+    },
+    {
+        "name": "New Custard",
+        "families": ["browns", "tans", "neutrals", "bloomberg"],
+        "pms": "7407 C",
+        "rgb": [203, 160, 82],
+        "bloomberg-rgb": [],
+        "hex": "CBA052"
+    },
+    {
+        "name": "Telescope Ceiling",
+        "families": ["browns", "tans", "neutrals", "campus"],
+        "pms": "721 C",
+        "rgb": [221, 164, 111],
+        "hex": "DDA46F"
+    },
+    {
+        "name": "Building Brick",
+        "families": ["browns", "tans", "neutrals", "campus"],
+        "pms": "479 C",
+        "rgb": [170, 128, 102],
+        "hex": "AA8066"
+    },
+    {
+        "name": "Mason Doors",
+        "families": ["browns", "tans", "neutrals", "campus"],
+        "pms": "7586 C",
+        "rgb": [158, 83, 48],
+        "hex": "9E5330"
+    },
+    {
+        "name": "Gray 1",
+        "families": ["grays", "neutrals", "eric-added"],
+        "pms": "",
+        "rgb": [229, 226, 224],
+        "hex": "E5E2E0"
+    },
+    {
+        "name": "Gray 2",
+        "families": ["grays", "neutrals", "eric-added"],
+        "pms": "",
+        "rgb": [180, 178, 173],
+        "hex": "B4B2AD"
+    },
+    {
+        "name": "Gray 3",
+        "families": ["grays", "neutrals", "eric-added"],
+        "pms": "",
+        "rgb": [126, 126, 124],
+        "hex": "7E7E7C"
+    },
+    {
+        "name": "Gray 4",
+        "families": ["grays", "neutrals", "eric-added"],
+        "pms": "",
+        "rgb": [74, 72, 76],
+        "hex": "4A484C"
+    },
+    {
+        "name": "Gray 5",
+        "families": ["grays", "neutrals", "eric-added"],
+        "pms": "",
+        "rgb": [44, 44, 51],
+        "hex": "2C2C33"
     }
 ]
