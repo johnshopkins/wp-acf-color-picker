@@ -1,0 +1,6 @@
+{
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-tasks": "git+ssh://git@github.com/jenwachter/gulp-tasks.git"
+  }
+}

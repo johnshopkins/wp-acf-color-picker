@@ -5,7 +5,7 @@ var $ = require("../shims/jquery");
 var _ = require('../shims/underscore');
 
 var ColorPicker = function (input, colors) {
-    
+
   this.input = input;
   this.colors = colors;
 
@@ -19,7 +19,7 @@ var ColorPicker = function (input, colors) {
 
   // div that contains the colors to choose from
   this.colorSelectBox = parent.find(".colors");
-  
+
   // repeaters default subfields to no value, so we need
   // to set a default value of a stringified empty array.
   var value = this.dataField.val() || JSON.stringify({});
@@ -43,7 +43,7 @@ ColorPicker.prototype.setupDisplayField = function () {
   this.displayField
     .height(this.input.outerHeight())
     .width(this.input.outerWidth());
-    
+
   this.displayCurrentValue();
 
 };
@@ -59,7 +59,7 @@ ColorPicker.prototype.displayCurrentValue = function () {
 };
 
 ColorPicker.prototype.setupcolorSelectBox = function () {
-  
+
   this.populateColors();
 
   this.colorSelectBox
@@ -78,7 +78,7 @@ ColorPicker.prototype.populateColors = function () {
   _.each(this.colors, function (color) {
     self.createColor(color).appendTo(container);
   });
-  
+
   this.colorSelectBox.html(container);
 
 };
@@ -100,7 +100,7 @@ ColorPicker.prototype.createColor = function (color) {
     .addClass("swatch")
     .css("background-color", swatchColor)
     .appendTo(div);
-  
+
   var colorName = color.name ? color.name : "None";
 
   $("<span>")
@@ -137,9 +137,9 @@ ColorPicker.prototype.setupEvents = function () {
     if (!self.active) return;
 
     var color = self.findClickedColor(e);
-    
+
     if (!color) return self.displayCurrentValue();
-    
+
     var colorData = color.data("info");
 
     // save color as current value

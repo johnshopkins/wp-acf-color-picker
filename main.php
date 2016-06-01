@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: ColorPicker
-Description: 
+Description:
 Author: johnshopkins
 Version: 0.1
 */
@@ -14,8 +14,8 @@ class ColorPickerMain
   {
     $this->logger = $logger;
 
-    add_action('acf/register_fields', function () {
-      new \ColorPicker\Field($this->logger);
+    add_action('acf/include_field_types', function () {
+      new \ColorPicker\Field($this->logger, plugin_dir_url(__FILE__));
     });
 
     add_action('admin_enqueue_scripts', function ($hook) {

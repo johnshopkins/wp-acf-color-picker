@@ -10,8 +10,8 @@ jQuery(document).ready(function ($) {
     if (colors.length === 0) return [];
     return JSON.parse(colors.text());
   };
-  
-  $(document).on("acf/setup_fields", function (e, new_field) {
+
+  acf.add_action("load_field/type=jhu_color_picker", function (new_field) {
 
     var colors = getColors();
 
