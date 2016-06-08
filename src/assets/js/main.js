@@ -11,14 +11,17 @@ jQuery(document).ready(function ($) {
     return JSON.parse(colors.text());
   };
 
-  acf.add_action("load_field/type=jhu_color_picker", function (new_field) {
+  var setupField = function (field) {
 
     var colors = getColors();
 
-    $(new_field).find("input.jhu_color_picker").each(function() {
+    $(field).find("input.jhu_color_picker").each(function() {
       new ColorPicker($(this), colors);
     });
 
-  });
+  };
+
+  acf.add_action("load_field/type=jhu_color_picker", setupField);
+  acf.add_action("append_field/type=jhu_color_picker", setupField);
 
 });
