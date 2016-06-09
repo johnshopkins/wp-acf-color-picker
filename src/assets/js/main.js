@@ -10,15 +10,18 @@ jQuery(document).ready(function ($) {
     if (colors.length === 0) return [];
     return JSON.parse(colors.text());
   };
-  
-  $(document).on("acf/setup_fields", function (e, new_field) {
+
+  var setupField = function (field) {
 
     var colors = getColors();
 
-    $(new_field).find("input.jhu_color_picker").each(function() {
+    $(field).find("input.jhu_color_picker").each(function() {
       new ColorPicker($(this), colors);
     });
 
-  });
+  };
+
+  acf.add_action("load_field/type=jhu_color_picker", setupField);
+  acf.add_action("append_field/type=jhu_color_picker", setupField);
 
 });
