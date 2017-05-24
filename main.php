@@ -34,4 +34,4 @@ class ColorPickerMain
   }
 }
 
-new ColorPickerMain($wp_logger);
+new ColorPickerMain($dependencies["logger_wp"]);
