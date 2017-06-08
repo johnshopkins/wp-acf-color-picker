@@ -4,63 +4,99 @@
         "families": ["reds", "communications"],
         "pms": "179 C",
         "rgb": [224, 60, 49],
-        "hex": "F43C31"
+        "hex": "F43C31",
+        "contrast": {
+          "white": 4.32,
+          "black": 4.86
+        }
     },
     {
         "name": "Red Clay",
         "families": ["reds", "newly-added"],
         "pms": "7623 C",
         "rgb": [138, 42, 43],
-        "hex": "8A2A2B"
+        "hex": "8A2A2B",
+        "contrast": {
+          "white": 8.58,
+          "black": 2.45
+        }
     },
     {
         "name": "Burnt Orange",
         "families": ["oranges", "newly-added"],
         "pms": "173 C",
         "rgb": [207, 69, 32],
-        "hex": "CF4520"
+        "hex": "CF4520",
+        "contrast": {
+          "white": 4.64,
+          "black": 4.53
+        }
     },
     {
         "name": "Tangerine",
         "families": ["oranges", "eric-added", "newly-added"],
         "pms": "1505 C",
         "rgb": [255, 105, 0],
-        "hex": "FF6900"
+        "hex": "FF6900",
+        "contrast": {
+          "white": 2.89,
+          "black": 7.27
+        }
     },
     {
         "name": "Creamsicle",
         "families": ["oranges", "newly-added"],
         "pms": "1375 C",
         "rgb": [255, 158, 27],
-        "hex": "FF9E1B"
+        "hex": "FF9E1B",
+        "contrast": {
+          "white": 2.07,
+          "black": 10.16
+        }
     },
     {
         "name": "Sunlight",
         "families": ["yellows", "for-review", "newly-added"],
         "pms": "1215 C",
         "rgb": [251, 216, 114],
-        "hex": "FBD872"
+        "hex": "FBD872",
+        "contrast": {
+          "white": 1.38,
+          "black": 15.17
+        }
     },
     {
         "name": "New Academic Gold",
         "families": ["yellows", "for-review", "newly-added"],
         "pms": "116 C",
         "rgb": [255, 205, 0],
-        "hex": "FFCD00"
+        "hex": "FFCD00",
+        "contrast": {
+          "white": 1.5,
+          "black": 13.98
+        }
     },
     {
         "name": "Lemon",
         "families": ["yellows", "newly-added", "for-review"],
         "pms": "101 C",
         "rgb": [247, 234, 72],
-        "hex": "F7EA48"
+        "hex": "F7EA48",
+        "contrast": {
+          "white": 1.25,
+          "black": 16.82
+        }
     },
     {
         "name": "CTY Green",
         "families": ["greens", "cty", "newly-added"],
         "pms": "584 C",
         "rgb": [210, 215, 85],
-        "hex": "D2D755"
+        "hex": "D2D755",
+        "contrast": {
+          "white": 1.55,
+          "black": 13.59
+        }
     },
     {
         "name": "Java",
@@ -68,49 +104,77 @@
         "pms": "574 C",
         "rgb": [78, 91, 49],
         "bloomberg-rgb": [83, 87, 29],
-        "hex": "4E5B31"
+        "hex": "4E5B31",
+        "contrast": {
+          "white": 7.33,
+          "black": 2.86
+        }
     },
     {
         "name": "Oak Leaves",
         "families": ["greens", "campus"],
         "pms": "7489 C",
         "rgb": [116, 170, 80],
-        "hex": "74AA50"
+        "hex": "74AA50",
+        "contrast": {
+          "white": 2.76,
+          "black": 7.61
+        }
     },
     {
         "name": "Magnolia Leaves (DEP)",
         "families": ["greens", "campus"],
         "pms": "7743 C",
         "rgb": [68, 105, 61],
-        "hex": "44693D"
+        "hex": "44693D",
+        "contrast": {
+          "white": 6.3,
+          "black": 3.33
+        }
     },
     {
         "name": "Spearmint",
         "families": ["greens", "newly-added"],
         "pms": "341 C",
         "rgb": [0, 122, 83],
-        "hex": "007A53"
+        "hex": "007A53",
+        "contrast": {
+          "white": 5.37,
+          "black": 3.91
+        }
     },
     {
         "name": "Bright Turquoise",
         "families": ["teals", "eric-added", "newly-added"],
         "pms": "3268 C",
         "rgb": [0, 171, 142],
-        "hex": "00AB8E"
+        "hex": "00AB8E",
+        "contrast": {
+          "white": 2.91,
+          "black": 7.22
+        }
     },
     {
         "name": "New Copper Petina",
         "families": ["teals", "campus"],
         "pms": "564 C",
         "rgb": [134, 200, 188],
-        "hex": "86C8BC"
+        "hex": "86C8BC",
+        "contrast": {
+          "white": 1.91,
+          "black": 11
+        }
     },
     {
         "name": "Logo",
         "families": ["blues", "communications", "identity"],
         "pms": "288 C",
         "rgb": [0, 45, 114],
-        "hex": "002D72"
+        "hex": "002D72",
+        "contrast": {
+          "white": 12.98,
+          "black": 1.62
+        }
     },
     {
         "name": "Basin",
@@ -118,98 +182,154 @@
         "pms": "548 C",
         "rgb": [0, 61, 76],
         "bloomberg-rgb": [0, 51, 86],
-        "hex": "003D4C"
+        "hex": "003D4C",
+        "contrast": {
+          "white": 11.85,
+          "black": 1.77
+        }
     },
     {
         "name": "Stained Glass",
         "families": ["blues", "campus"],
         "pms": "7696 C",
         "rgb": [99, 153, 174],
-        "hex": "6399AE"
+        "hex": "6399AE",
+        "contrast": {
+          "white": 3.14,
+          "black": 6.71
+        }
     },
     {
         "name": "Sparta",
         "families": ["blues", "campus"],
         "pms": "300 C",
         "rgb": [0, 94, 184],
-        "hex": "005EB8"
+        "hex": "005EB8",
+        "contrast": {
+          "white": 6.38,
+          "black": 3.29
+        }
     },
     {
         "name": "Jay",
         "families": ["blues", "newly-added"],
         "pms": "284 C",
         "rgb": [108, 172, 228],
-        "hex": "6CACE4"
+        "hex": "6CACE4",
+        "contrast": {
+          "white": 2.43,
+          "black": 8.66
+        }
     },
     {
         "name": "Brody Wall",
         "families": ["blues", "campus"],
         "pms": "279 C",
         "rgb": [65, 143, 222],
-        "hex": "418FDE"
+        "hex": "418FDE",
+        "contrast": {
+          "white": 3.38,
+          "black": 6.21
+        }
     },
     {
         "name": "Slate",
         "families": ["blues", "communications"],
         "pms": "651 C",
         "rgb": [167, 188, 214],
-        "hex": "A7BCD6"
+        "hex": "A7BCD6",
+        "contrast": {
+          "white": 1.94,
+          "black": 10.81
+        }
     },
     {
         "name": "Light Purple",
         "families": ["indigos", "purples", "communications"],
         "pms": "7675 C",
         "rgb": [124, 127, 171],
-        "hex": "7C7FAB"
+        "hex": "7C7FAB",
+        "contrast": {
+          "white": 3.83,
+          "black": 5.48
+        }
     },
     {
         "name": "Ballpoint",
         "families": ["indigos", "purples", "newly-added"],
         "pms": "273 C",
         "rgb": [36, 19, 95],
-        "hex": "24135F"
+        "hex": "24135F",
+        "contrast": {
+          "white": 15.75,
+          "black": 1.33
+        }
     },
     {
         "name": "New Beet",
         "families": ["violets", "purples", "newly-added"],
         "pms": "2617 C",
         "rgb": [71, 10, 104],
-        "hex": "470A68"
+        "hex": "470A68",
+        "contrast": {
+          "white": 13.9,
+          "black": 1.51
+        }
     },
     {
         "name": "Pathway Brick",
         "families": ["violets", "purples", "campus"],
         "pms": "5205 C",
         "rgb": [134, 100, 122],
-        "hex": "86647A"
+        "hex": "86647A",
+        "contrast": {
+          "white": 5.1,
+          "black": 4.12
+        }
     },
     {
         "name": "New Medical Gloves",
         "families": ["violets", "purples", "campus", "newly-added"],
         "pms": "7656 C",
         "rgb": [142, 58, 128],
-        "hex": "8E3A80"
+        "hex": "8E3A80",
+        "contrast": {
+          "white": 6.85,
+          "black": 3.07
+        }
     },
     {
         "name": "Ron/Tricia Pants",
         "families": ["pinks", "newly-added"],
         "pms": "505 C",
         "rgb": [111, 44, 63],
-        "hex": "6F2C3F"
+        "hex": "6F2C3F",
+        "contrast": {
+          "white": 9.96,
+          "black": 2.11
+        }
     },
     {
         "name": "Bubblegum",
         "families": ["pinks", "newly-added"],
         "pms": "1915 C",
         "rgb": [239, 74, 129],
-        "hex": "EF4A81"
+        "hex": "EF4A81",
+        "contrast": {
+          "white": 3.52,
+          "black": 5.97
+        }
     },
     {
         "name": "Copper Roof",
         "families": ["reds", "campus"],
         "pms": "486 C",
         "rgb": [232, 146, 124],
-        "hex": "E8927C"
+        "hex": "E8927C",
+        "contrast": {
+          "white": 2.38,
+          "black": 8.83
+        }
     },
     {
         "name": "Barista",
@@ -217,14 +337,22 @@
         "pms": "732 C",
         "rgb": [98, 52, 18],
         "bloomberg-rgb": [79, 51, 20],
-        "hex": "623412"
+        "hex": "623412",
+        "contrast": {
+          "white": 10.4,
+          "black": 2.02
+        }
     },
     {
         "name": "Nursing Stairwell",
         "families": ["browns", "tans", "neutrals", "campus"],
         "pms": "7501 C",
         "rgb": [217, 200, 158],
-        "hex": "D9C89E"
+        "hex": "D9C89E",
+        "contrast": {
+          "white": 1.65,
+          "black": 12.71
+        }
     },
     {
         "name": "New Custard",
@@ -232,62 +360,98 @@
         "pms": "7407 C",
         "rgb": [203, 160, 82],
         "bloomberg-rgb": [],
-        "hex": "CBA052"
+        "hex": "CBA052",
+        "contrast": {
+          "white": 2.42,
+          "black": 8.69
+        }
     },
     {
         "name": "Telescope Ceiling",
         "families": ["browns", "tans", "neutrals", "campus"],
         "pms": "721 C",
         "rgb": [221, 164, 111],
-        "hex": "DDA46F"
+        "hex": "DDA46F",
+        "contrast": {
+          "white": 2.18,
+          "black": 9.61
+        }
     },
     {
         "name": "Building Brick",
         "families": ["browns", "tans", "neutrals", "campus"],
         "pms": "479 C",
         "rgb": [170, 128, 102],
-        "hex": "AA8066"
+        "hex": "AA8066",
+        "contrast": {
+          "white": 3.51,
+          "black": 5.99
+        }
     },
     {
         "name": "Mason Doors",
         "families": ["browns", "tans", "neutrals", "campus"],
         "pms": "7586 C",
         "rgb": [158, 83, 48],
-        "hex": "9E5330"
+        "hex": "9E5330",
+        "contrast": {
+          "white": 5.62,
+          "black": 3.73
+        }
     },
     {
         "name": "Gray 1",
         "families": ["grays", "neutrals", "eric-added"],
         "pms": "",
         "rgb": [229, 226, 224],
-        "hex": "E5E2E0"
+        "hex": "E5E2E0",
+        "contrast": {
+          "white": 1.29,
+          "black": 16.29
+        }
     },
     {
         "name": "Gray 2",
         "families": ["grays", "neutrals", "eric-added"],
         "pms": "",
         "rgb": [180, 178, 173],
-        "hex": "B4B2AD"
+        "hex": "B4B2AD",
+        "contrast": {
+          "white": 2.12,
+          "black": 9.91
+        }
     },
     {
         "name": "Gray 3",
         "families": ["grays", "neutrals", "eric-added"],
         "pms": "",
         "rgb": [126, 126, 124],
-        "hex": "7E7E7C"
+        "hex": "7E7E7C",
+        "contrast": {
+          "white": 4.07,
+          "black": 5.16
+        }
     },
     {
         "name": "Gray 4",
         "families": ["grays", "neutrals", "eric-added"],
         "pms": "",
         "rgb": [74, 72, 76],
-        "hex": "4A484C"
+        "hex": "4A484C",
+        "contrast": {
+          "white": 9.04,
+          "black": 2.32
+        }
     },
     {
         "name": "Gray 5",
         "families": ["grays", "neutrals", "eric-added"],
         "pms": "",
         "rgb": [44, 44, 51],
-        "hex": "2C2C33"
+        "hex": "2C2C33",
+        "contrast": {
+          "white": 13.86,
+          "black": 1.52
+        }
     }
 ]
