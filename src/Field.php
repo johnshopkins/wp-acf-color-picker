@@ -50,6 +50,15 @@ class Field extends \acf_field
         return json_decode($value);
     }
 
+    /**
+     * This filter is appied to the $value after it is loaded from the
+     * database and before it is returned to the template
+     */
+    function format_value( $value, $post_id, $field )
+    {
+        return json_decode($value);
+    }
+
     function input_admin_enqueue_scripts()
     {
         wp_enqueue_style('jhu_color_picker_css', $this->dir . 'dist/css/styles.css', array(), '0.0.1');
