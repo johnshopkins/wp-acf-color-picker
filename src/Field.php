@@ -8,9 +8,9 @@ class Field extends \acf_field
 
     protected $colors;
 
-    function __construct($logger, $pluginDirectory)
+    function __construct()
     {
-        $this->dir = $pluginDirectory;
+        $this->dir = plugin_dir_url(dirname(__FILE__));
         $this->name = 'jhu_color_picker';
         $this->label = __('JHU Color Picker');
         $this->category = __("Choice",'acf');

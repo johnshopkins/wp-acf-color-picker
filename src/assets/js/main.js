@@ -1,19 +1,14 @@
 /* global require: false */
-/* global JSON: true */
+/* global document: true */
+/* global acf: true */
 
+var $ = require("./shims/jquery");
 var ColorPicker = require("./lib/colorpicker");
+var colors = require("../../../config/colors.json");
 
-jQuery(document).ready(function ($) {
-
-  var getColors = function() {
-    var colors = $("#jhu_colors");
-    if (colors.length === 0) return [];
-    return JSON.parse(colors.text());
-  };
+$(document).ready(function ($) {
 
   var setupField = function (field) {
-
-    var colors = getColors();
 
     $(field).find("input.jhu_color_picker").each(function() {
       new ColorPicker($(this), colors);
