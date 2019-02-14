@@ -1,3 +1,14 @@
+// media modal
+tr.acf-field-jhu-color-picker {
+  overflow: visible;
+
+  &::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+}
+
 .jhu_color_picker_container {
   
   overflow: visible;
@@ -15,11 +26,14 @@
     // display the selected color underneath
     // the input to preserve input events
     .color-display {
-      margin-top: 1px;
+      background: #fff;
       position: absolute;
       z-index: 1;
-      top: 0;
-      padding: 3px;
+      top: 0px;
+
+      .color {
+        margin: 4px 0 0 4px;
+      }
     }
 
   }
@@ -44,7 +58,7 @@
 
   .colors {
     position: absolute;
-    z-index: 3;
+    z-index: 160001; // 1 higher than modal
     height: 200px;
     overflow: scroll;
     background: #fff;
