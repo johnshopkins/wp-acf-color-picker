@@ -61,8 +61,8 @@ class Field extends \acf_field
 
     function input_admin_enqueue_scripts()
     {
-        wp_enqueue_style('jhu_color_picker_css', $this->dir . 'dist/css/styles.css', array(), '0.0.1');
-        wp_enqueue_script('jhu_color_picker', $this->dir . 'dist/js/main.js', array('underscore', 'jquery'), '0.0.1');
+        wp_enqueue_style('jhu-color-picker', $this->dir . 'dist/css/styles.css', array(), '0.0.2');
+        wp_enqueue_script('jhu-color-picker', $this->dir . 'dist/js/main.js', array('underscore', 'jquery'), '0.0.3');
     }
 
 }

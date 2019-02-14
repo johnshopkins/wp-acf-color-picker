@@ -16,6 +16,8 @@ $(document).ready(function ($) {
 
   };
 
+  window.setupJHUColorField = setupField;
+
   acf.add_action("load_field/type=jhu_color_picker", setupField);
   acf.add_action("append_field/type=jhu_color_picker", setupField);
 

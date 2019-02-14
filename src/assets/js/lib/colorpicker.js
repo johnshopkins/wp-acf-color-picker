@@ -149,7 +149,10 @@ ColorPicker.prototype.setupEvents = function () {
     self.dataField.attr("value", JSON.stringify(colorData));
 
     // display the color
-    self.displayField.html(color.html());
+    self.displayField.html('<div class="color">' + color.addBack().html() + '</div>');
+
+    // trigger onchange to trigger saving of data
+    self.input.trigger('change');
 
   });
 
